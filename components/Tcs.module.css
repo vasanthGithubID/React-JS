@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+
+ }
+ #nav{
+    height: 80px;
+    width: 100%;
+    background-color:rgb(30,34,34);
+    display: flex;
+    justify-content: center;
+ }
+#nav>article{
+    height: 80px;
+    width:98%;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content:space-between; */
+    
+}
+#nav>article>.logo{
+    width: 18%;
+    /* background-color: blue; */
+    /* display: flex;
+     justify-content: flex-start; */
+}
+#nav>article>.MenuFirst{
+    height: 80px;
+    width:30%;
+   
+    
+    /* background-color: brown; */
+}
+#nav>article>.MenuFirst>ol{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
+   
+}
+#nav>article>.MenuFirst>ol>li{
+   
+    list-style-type:none;
+    
+   
+}
+#nav>article>.MenuFirst>ol>li>a{
+    text-decoration: none;
+    color: rgb(248,227,226);
+}
+#nav>article>.blank{
+    width: 20%;
+    /* background-color: blueviolet; */
+}
+#nav>article>.MenuLast{
+    /* display: flex;
+     */
+    height: 80px;
+    /* background-color: orange; */
+    width:36%;
+}
+#nav>article>.MenuLast>ol{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav>article>.MenuLast>ol>li{
+   
+    list-style-type: none;
+   
+}
+#nav>article>.MenuLast>ol>li>a{
+    text-decoration: none;
+    color: rgb(158,159,163)
+}
+#nav>article>.MenuLast>ol>li>a>div>button>i:hover{
+    color: rgb(238,25,166);
+}
+

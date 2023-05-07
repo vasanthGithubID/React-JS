@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#myntra{
+    height: 73px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+#myntra>article{
+    height: 75px;
+    width: 100%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center; 
+    
+}
+#myntra>article>.logo{
+    height: 40px;
+    /* width: 10px; */
+    display: flex;
+    padding-left: 3rem;
+    
+}
+#myntra>article>.logo>img{
+   height: 130%;
+    width: 140%;
+    align-items: center;
+    background: transparent;
+    
+}
+#myntra>article>.Menu{
+    height: 73px;
+    width: 50%;
+    /* background-color:orange;      */
+    
+}
+#myntra>article>.Menu>ol{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 73px;
+    justify-content:space-evenly;
+    
+}
+#myntra>article>.Menu>ol>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    
+}
+#myntra>article>.skill{
+    margin-left: 12rem;
+}
+#myntra>article>.skill>ol{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-left: 3rem;
+}
+#myntra>article>.skill>ol>li>a{
+text-decoration: none;
+padding: 12px;
+}
+#myntra>article>.search{
+   
+    width: 50%;
+    margin-left: 80px;
+    /* background-color:orange;      */
+    /* padding-left: 50px; */
+    
+}
+#myntra>article>.search>input{
+    height: 40px;
+    width: 100%;
+    padding-left: 5rem;
+
+}

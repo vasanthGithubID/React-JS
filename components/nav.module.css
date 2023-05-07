@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    animation: arko;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+}
+#nav>article{
+    height: 73px ;
+    width: 60%;
+     /* border:  2px solid white;  */
+     display: flex;
+}
+#nav>article>.Logo{
+    height: 73px;
+    width: 50%;
+    /* background-color: coral; */
+    display: flex;
+    align-items: center;
+}
+#nav>article>.Logo>svg{
+    width: 40%;
+    fill: rgb(11, 250, 246);
+}
+
+#nav>article>.Logo>svg:hover{
+    cursor: pointer;
+}
+#nav>article>.Menu{
+    height: 73px;
+    width: 90%;
+    /* background-color: aquamarine; */
+}
+#nav>article>.Menu>ul{
+    height: 73px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+#nav>article>.Menu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+}
+#nav>article>.Menu>ul>li>a:hover{
+    transition: 0.2s;
+    color: red;
+}
+@keyframes arko {
+    25%{background-color: orange;}
+    50%{background-color: white;}
+    50%{background-color: blue;}
+    75%{background-color: greenyellow;}
+}
